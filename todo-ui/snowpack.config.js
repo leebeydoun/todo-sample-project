@@ -9,13 +9,7 @@ module.exports = {
     '@snowpack/plugin-dotenv',
     '@snowpack/plugin-typescript',
     '@snowpack/plugin-postcss',
-    [
-      '@snowpack/plugin-run-script',
-      {
-        cmd: 'eslint src --ext .ts,.tsx,.js,.jsx',
-        watch: 'esw -w --clear src --ext .ts,.tsx,.js,.jsx',
-      },
-    ],
+    '@canarise/snowpack-eslint-plugin',
   ],
   routes: [
     /* Enable an SPA Fallback in development: */

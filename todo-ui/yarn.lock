@@ -210,6 +210,18 @@
     lodash "^4.17.19"
     to-fast-properties "^2.0.0"
 
+"@canarise/snowpack-eslint-plugin@^0.1.0":
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/@canarise/snowpack-eslint-plugin/-/snowpack-eslint-plugin-0.1.0.tgz#f8f6b815b8501ffe1a7c60c1275a1ab8eebbf05d"
+  integrity sha512-RXSijPtphsedzUtIXs5yhw+0MQxgxY2cKccp4YuYVbztGK93RgjD1kHGMI68QbDhN6m0OvIv9p/MalV35IXY9Q==
+  dependencies:
+    chalk "^4.1.0"
+    execa "^5.0.0"
+    npm-run-path "^4.0.1"
+  optionalDependencies:
+    eslint "^7.0.0"
+    eslint-watch "^7.0.0"
+
 "@eslint/eslintrc@^0.3.0":
   version "0.3.0"
   resolved "https://registry.yarnpkg.com/@eslint/eslintrc/-/eslintrc-0.3.0.tgz#d736d6963d7003b6514e6324bec9c602ac340318"
@@ -1705,7 +1717,7 @@ eslint-watch@^7.0.0:
     optionator "^0.9.1"
     source-map-support "^0.5.13"
 
-eslint@^7.20.0:
+eslint@^7.0.0, eslint@^7.20.0:
   version "7.20.0"
   resolved "https://registry.yarnpkg.com/eslint/-/eslint-7.20.0.tgz#db07c4ca4eda2e2316e7aa57ac7fc91ec550bdc7"
   integrity sha512-qGi0CTcOGP2OtCQBgWZlQjcTuP0XkIpYFj25XtRTQSHC+umNnp7UMshr2G8SLsRFYDdAPFeHOsiteadmMH02Yw==
