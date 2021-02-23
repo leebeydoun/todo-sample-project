@@ -1,0 +1,10 @@
+{
+  "name": "graphql-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Lee",
+  "license": "MIT",
+  "dependencies": {
+    "graphql": "^15.5.0"
+  }
+}
