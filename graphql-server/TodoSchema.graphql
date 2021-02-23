@@ -1,0 +1,37 @@
+type User {
+    id: ID!
+    name: String!
+    uniqueName: String!
+    email: String!
+    joined: String!
+}
+
+type Todo {
+    id: ID!
+    user: User!
+    name: String!
+    description: String!
+    complete: Boolean!
+}
+
+input CTodoInput {
+    name: String!
+    description: String!
+}
+
+input UpdateTodoInput {
+    name: String
+    description: String
+    complete: Boolean
+}
+
+type Query {
+    me: User!
+    getTodos: [Todo!]!
+}
+
+type Mutation {
+    createTodo(id: ID! in: CTodoInput): Todo
+    updateTodo(id: ID! in: UpdateTodoInput): Todo
+    deleteTodo(id: ID!): Todo
+}
